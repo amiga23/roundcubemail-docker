@@ -16,6 +16,7 @@ RUN set -ex; \
 		libpq-dev \
 		libsqlite3-dev \
 		libzip-dev \
+		pkg-config \
 	; \
 	\
 	debMultiarch="$(dpkg-architecture --query DEB_BUILD_MULTIARCH)"; \
